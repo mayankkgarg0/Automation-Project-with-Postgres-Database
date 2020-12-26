@@ -1,0 +1,63 @@
+[main] INFO  com.MRIoA.qa.BaseClass  - Running Base Class static block
+[main] DEBUG org.apache.commons.configuration.PropertiesConfiguration  - FileName set to src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.ConfigurationUtils  - ConfigurationUtils.locate(): base is null, name is src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.DefaultFileSystem  - Could not locate file src\main\java\com\MRIoA\qa\testdata\TestData.properties at null: no protocol: src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.ConfigurationUtils  - Loading configuration from the path src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.PropertiesConfiguration  - Base path set to file:///F:/Automation%20Testing/Workspace/MRIoAV1/src/main/java/com/MRIoA/qa/testdata/TestData.properties
+[main] INFO  com.MRIoA.qa.testcases.LoginPageTest  - In BeforeClass method of LoginPageTest
+[main] INFO  com.MRIoA.qa.DataBaseConnectionFactory  - Connected to PostgreSQL server DEV database
+[main] INFO  com.MRIoA.qa.testcases.LoginPageTest  - Connection === org.postgresql.jdbc.PgConnection@15ca7889
+[main] INFO  com.MRIoA.qa.testcases.LoginPageTest  - <----Initializing the browser---->
+[main] INFO  com.MRIoA.qa.pageObjects.LoginPage  - In loginPage constructor
+[main] INFO  com.MRIoA.qa.testcases.LoginPageTest  - Running patientValidEmailAddress_validPassword_LoginTest_with2FA_ValidOTP method for patient no. 1
+[main] DEBUG com.MRIoA.qa.DataBaseConnectionFactory  - sqlQuery === select two_factor_authenticator_flag from second_opinion.user_details where email = 'testng5@mailinator.com'
+[main] INFO  com.MRIoA.qa.utilities.Utilities  - rs.isBeforeFirst() false
+[main] INFO  com.MRIoA.qa.utilities.Utilities  - 2FA is not opted for email address:--- testng5@mailinator.com
+[main] INFO  com.MRIoA.qa.CustomListener  - Failed Test Case Screenshot!!! In Process
+[main] INFO  com.MRIoA.qa.CustomListener  - Failed Test Case Screenshot Saved Successfully!!
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+[main] INFO  com.MRIoA.qa.testcases.LoginPageTest  - Closing the browser
+[main] INFO  com.MRIoA.qa.testcases.LoginPageTest  - <----Initializing the browser---->
+[main] INFO  com.MRIoA.qa.pageObjects.LoginPage  - In loginPage constructor
+[main] INFO  com.MRIoA.qa.testcases.LoginPageTest  - Running patientValidEmailAddress_validPassword_LoginTest_with2FA_invalidOTP method for patient no. 1
+[main] INFO  com.MRIoA.qa.pageObjects.LoginPage  - Login button is clicked
+[main] INFO  com.MRIoA.qa.pageObjects.LoginPage  - No element found for----> Email address already exist error message
+[main] INFO  com.MRIoA.qa.pageObjects.LoginPage  - Waiting for OTP screen
+[main] INFO  com.MRIoA.qa.BaseClass  - Running Base Class static block
+[main] DEBUG org.apache.commons.configuration.PropertiesConfiguration  - FileName set to src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.ConfigurationUtils  - ConfigurationUtils.locate(): base is null, name is src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.DefaultFileSystem  - Could not locate file src\main\java\com\MRIoA\qa\testdata\TestData.properties at null: no protocol: src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.ConfigurationUtils  - Loading configuration from the path src\main\java\com\MRIoA\qa\testdata\TestData.properties
+[main] DEBUG org.apache.commons.configuration.PropertiesConfiguration  - Base path set to file:///F:/Automation%20Testing/Workspace/MRIoAV1/src/main/java/com/MRIoA/qa/testdata/TestData.properties
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - In BeforeClass method of SignUpFormPageTest
+[main] INFO  com.MRIoA.qa.DataBaseConnectionFactory  - Connected to PostgreSQL server DEV database
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Connection === org.postgresql.jdbc.PgConnection@15ca7889
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - <----Initializing the browser---->
+[main] INFO  com.MRIoA.qa.pageObjects.SignUpFormPage  - In SignUpFormPage constructor
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Running patientFormSignUpSuccessTest_with2FA method:---- Validate Sign up functionality for Patient No. 1 with form for first time and 2FA opted
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Sign Up link is clicked on login page
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - patient is registering by providing details in sign up form!!
+[main] INFO  com.MRIoA.qa.pageObjects.SignUpFormPage  - No element found for----> Email address already exist error message
+[main] INFO  com.MRIoA.qa.pageObjects.SignUpFormPage  - Waiting for OTP screen
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Query executing for OTP generation
+[main] DEBUG com.MRIoA.qa.DataBaseConnectionFactory  - sqlQuery === select otp from second_opinion.user_otp where user_id = (select id from second_opinion.user_details where email = 'testng8@mailinator.com') order by created_at desc limit 1
+[main] INFO  com.MRIoA.qa.BaseClass  - rs.isBeforeFirst() true
+[main] DEBUG com.MRIoA.qa.BaseClass  - OTP generated is 693346
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Validate patient registered successfully and navigate to dashboard or not?
+[main] DEBUG com.MRIoA.qa.testcases.SignUpFormPageTest  - Current url is: http://35.186.243.56/user/service/dashboard
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - patient no. 1 registered and navigated to dashboard successfully !!
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/user/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Closing the browser
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - <----Initializing the browser---->
+[main] INFO  com.MRIoA.qa.pageObjects.SignUpFormPage  - In SignUpFormPage constructor
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Running patientFormSignUpFailureTest_with2FA method:---- Validate Sign up functionality for Patient No. 1 with form for second time with same email address and 2FA opted
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - Sign Up link is clicked
+[main] INFO  com.MRIoA.qa.testcases.SignUpFormPageTest  - patient is registering by providing details in sign up form!!

@@ -1,0 +1,11 @@
+com\MRIoA\qa\testcases\ForgotAndResetPasswordPageTest.class
+com\MRIoA\qa\testcases\LoginPageTest.class
+com\MRIoA\qa\testcases\DeleteUsersAPIAutomationTest.class
+com\MRIoA\qa\testcases\NewServiceRequestScenarioTest.class
+com\MRIoA\qa\testcases\AssignedServiceRequestScenarioTest.class
+com\MRIoA\qa\testcases\ClosedAndArchivedServiceRequestScenarioTest.class
+com\MRIoA\qa\testcases\PatientEditProfilePageTest.class
+com\MRIoA\qa\testcases\RejectedAndReopenedServiceRequestScenarioTest.class
+com\MRIoA\qa\testcases\SignUpFormPageTest.class
+com\MRIoA\qa\testcases\EmployeeLoginPageTest.class
+com\MRIoA\qa\testcases\SubmittedServiceRequestScenarioTest.class

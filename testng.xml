@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MRIOA Phase 1 Modules Test Suite">
+  <test name="MRIOA Regression Test">
+    <classes>
+      <class name="com.MRIoA.qa.testcases.SignUpFormPageTest"/>
+      <class name="com.MRIoA.qa.testcases.LoginPageTest"/>
+      <class name="com.MRIoA.qa.testcases.EmployeeLoginPageTest"/>
+      <class name="com.MRIoA.qa.testcases.ForgotAndResetPasswordPageTest"/>
+      <class name="com.MRIoA.qa.testcases.PatientEditProfilePageTest"/>
+      <class name="com.MRIoA.qa.testcases.NewServiceRequestScenarioTest"/>
+      <class name="com.MRIoA.qa.testcases.AssignedServiceRequestScenarioTest"/>
+      <class name="com.MRIoA.qa.testcases.RejectedAndReopenedServiceRequestScenarioTest"/>
+      <class name="com.MRIoA.qa.testcases.SubmittedServiceRequestScenarioTest"/>
+      <class name="com.MRIoA.qa.testcases.ClosedAndArchivedServiceRequestScenarioTest"/>
+      <class name="com.MRIoA.qa.testcases.DeleteUsersAPIAutomationTest"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- MRIOA Phase 1 Modules Test Suite -->

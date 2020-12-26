@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.MRIoA.qa.testcases.PatientEditProfilePageTest">
+        <methods>
+          <include name="getDBConnection"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="doPasswordUpdateTest"/>
+          <include name="doProfileEditTest"/>
+          <include name="closeDBConnection"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.PatientEditProfilePageTest -->
+      <class name="com.MRIoA.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="patientInvalidEmailAddress_validPassword_LoginTest"/>
+          <include name="getDBConnection"/>
+          <include name="patientValidEmailAddress_validPassword_LoginTest_with2FA_invalidOTP"/>
+          <include name="patientInvalidEmailAddress_invalidPassword_LoginTest"/>
+          <include name="patientLogoutTest"/>
+          <include name="setUp"/>
+          <include name="closeDBConnection"/>
+          <include name="tearDown"/>
+          <include name="patientValidEmailAddress_validPassword_LoginTest_with2FA_ValidOTP"/>
+          <include name="patientValidEmailAddress_validPassword_LoginTest_without2FA"/>
+          <include name="patientGoogleSignInTest_without2FA"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.LoginPageTest -->
+      <class name="com.MRIoA.qa.testcases.AssignedServiceRequestScenarioTest">
+        <methods>
+          <include name="verifyAssignedServiceRequestTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="closeDBConnection"/>
+          <include name="getDBConnection"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.AssignedServiceRequestScenarioTest -->
+      <class name="com.MRIoA.qa.testcases.EmployeeLoginPageTest">
+        <methods>
+          <include name="getDBConnection"/>
+          <include name="closeDBConnection"/>
+          <include name="caseManagerLogin_WithInvalidOTPTest"/>
+          <include name="setUp"/>
+          <include name="casemanager_logoutTest"/>
+          <include name="tearDown"/>
+          <include name="caseManagerLogin_WithValidOTPTest"/>
+          <include name="supervisorLogin_WithValidOTPTest"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.EmployeeLoginPageTest -->
+      <class name="com.MRIoA.qa.testcases.ClosedAndArchivedServiceRequestScenarioTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeAndArchiveServiceRequestTest"/>
+          <include name="closeDBConnection"/>
+          <include name="getDBConnection"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.ClosedAndArchivedServiceRequestScenarioTest -->
+      <class name="com.MRIoA.qa.testcases.DeleteUsersAPIAutomationTest">
+        <methods>
+          <include name="deleteUsersAPIAutomation"/>
+          <include name="getDBConnection"/>
+          <include name="tearDown"/>
+          <include name="LoginTest_AfterUserDeletion"/>
+          <include name="setUp"/>
+          <include name="closeDBConnection"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.DeleteUsersAPIAutomationTest -->
+      <class name="com.MRIoA.qa.testcases.NewServiceRequestScenarioTest">
+        <methods>
+          <include name="getDBConnection"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyNewServiceRequestTest"/>
+          <include name="closeDBConnection"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.NewServiceRequestScenarioTest -->
+      <class name="com.MRIoA.qa.testcases.RejectedAndReopenedServiceRequestScenarioTest">
+        <methods>
+          <include name="closeDBConnection"/>
+          <include name="tearDown"/>
+          <include name="getDBConnection"/>
+          <include name="verifyRejectedServiceRequestTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.RejectedAndReopenedServiceRequestScenarioTest -->
+      <class name="com.MRIoA.qa.testcases.SubmittedServiceRequestScenarioTest">
+        <methods>
+          <include name="getDBConnection"/>
+          <include name="tearDown"/>
+          <include name="submitServiceRequestTest"/>
+          <include name="setUp"/>
+          <include name="closeDBConnection"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.SubmittedServiceRequestScenarioTest -->
+      <class name="com.MRIoA.qa.testcases.ForgotAndResetPasswordPageTest">
+        <methods>
+          <include name="doResetPwdWith_InvalidEmailAddressTest"/>
+          <include name="getDBConnection"/>
+          <include name="tearDown"/>
+          <include name="doResetPasswordWith_ValidEmailAddressTest"/>
+          <include name="closeDBConnection"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.ForgotAndResetPasswordPageTest -->
+      <class name="com.MRIoA.qa.testcases.SignUpFormPageTest">
+        <methods>
+          <include name="patientFormSignUpFailureTest_with2FA"/>
+          <include name="patientFormSignUpSuccessTest_with2FA"/>
+          <include name="setUp"/>
+          <include name="patientGoogleSignUpSuccessTest_without2FA"/>
+          <include name="closeDBConnection"/>
+          <include name="tearDown"/>
+          <include name="patientFormSignUpFailureTest_without2FA"/>
+          <include name="patientFormSignUpSuccessTest_without2FA"/>
+          <include name="getDBConnection"/>
+        </methods>
+      </class> <!-- com.MRIoA.qa.testcases.SignUpFormPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
